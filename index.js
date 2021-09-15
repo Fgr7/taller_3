@@ -236,6 +236,7 @@ function init(){
         A=0;
         B=0;
         C="";
+        fr=0;
     }
 }
 
