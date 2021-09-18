@@ -106,16 +106,18 @@
     text-align: center;
  }
 
+
+
 /* estilo del panel de resultados */
 
 #resultado{
     display: block;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
    /* margin-bottom: 50px; */
     width: 400px;
-    height: 100px;
-    line-height: 100px;
+    height: 50px;
+    line-height: 50px;
     background-color: #fff;
     border-radius: 60px;
     color: rgb(50, 50, 56);

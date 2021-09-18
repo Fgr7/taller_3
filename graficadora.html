@@ -7,26 +7,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
     
 </head>
-<body>
+    <body onload="init();">
+        <div  class="form-register" >            
+                <h1 id="titulo">Graficadora</h1>
+                <div>
+                    <label class="coco" for="name" >Data:   </label> 
+                    <input class="controls" name="name" id="data" placeholder="Ingrese datos" type="number">
+                </div>
+                <div>
+                    <label class="coco" for="lastname" >Labels:   </label> 
+                    <input class="controls" name="name" id="label" placeholder="Ingrese datos" type="text">
+                </div>
+    
+                    
+                
+                
+        </div>       
 
     
-    <section class="form-register">
-        
-        <!--Resultados o Pantalla-->
-        <tr >  
-            <div><label class="coco" for="name">Data: </label>
-                 <input class="controls" name="name" id="name" placeholder="Ingrese datos" type="text">
-                 <label class="coco" for="lastname">label: </label>
-                <input class="controls" name="name" id="name" placeholder="Ingrese titulos" type="text">
-            </div>
-            
-    </section>       
 
-    
-
-    <div class="div-boton" >  
-            <a class="btn btn-dark" href="graficadora.html">Calculadora </a> </button>
-    </div>
-<script src="Java Script/graficadora.js"></script>  
-</body>
+        <div class="div-boton" >  
+            <a class="btn btn-dark" href="index.html">Calculadora </a> </button>
+        </div>
+        <script src="Java Script/graficadora.js"></script>  
+    </body>
 </html>
