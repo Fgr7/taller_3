@@ -7,7 +7,11 @@
 </head>
 
 <body onload="init();">
-    <table  class="table table-dark" id="calculadora" > <!--Resultados o Pantalla-->
+
+    
+    <table  class="table" id="calculadora" >
+        
+        <!--Resultados o Pantalla-->
         <tr >  
             <td colspan="4"><span id="resultado">0000</span></td>
 
@@ -38,7 +42,7 @@
             <td> <button class="btn btn-outline-light" id="uno">1</button>   </td>
             <td> <button class="btn btn-outline-light" id="dos">2</button>   </td>
             <td> <button class="btn btn-outline-light" id="tres">3</button>   </td>
-            <td rowspan="2"> <button class="btn btn-outline-light" id="igual">Enter</button>   </td>
+            <td rowspan="2"> <button class="btn btn-outline-light" id="igual">=</button>   </td>
         </tr>
 
         <tr id="sq" >  <!--quinta fila de botones-->
@@ -48,6 +52,10 @@
         </tr>
         
     </table>
+
+    <div class="div-boton" >  
+            <a class="btn btn-dark" href="graficadora.html">Graficadora </a> </button>
+    </div>
 
 
 <script src="index.js"></script>  
