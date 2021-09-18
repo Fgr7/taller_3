@@ -24,7 +24,7 @@ function init(){
     var site = document.getElementById("siete");
     var ocho = document.getElementById("ocho");
     var nueve = document.getElementById("nueve");   
-    
+    var punto = document.getElementById("punto");  
     //eventos
     cero.onclick = function(e){
         if(ini==0){
@@ -138,6 +138,11 @@ function init(){
                 resultado.textContent = resultado.textContent + "9";
             }
     }
+    
+    punto.onclick = function (e){
+        resultado.textContent = resultado.textContent + ".";
+    }
+
     clean.onclick = function(e){
         resetear();
     }

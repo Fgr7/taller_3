@@ -1,22 +1,88 @@
 /* estilo de la calculadora */
-.calculadora{
+#calculadora{
     display: block;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgb(46, 70, 85);
-    width: 380px;
-    height: 500px;
-    border-radius: 60px;
+    margin: 0 auto; 
+    padding: 20px; 
+    width:max-content;
+    height: max-content;
+    border-radius: 90px;
+    background-color: #212529;
 }
 
 /* estilo de los botones */
-.calculadora td button{
-    display: block;
-    width: 70px;
-    height: 70px;
-    font-size:25px;
 
-}
+    /*botones especiales*/
+    #clean{
+        width: 168px;
+        height: 70px;
+        margin-right: 0px;
+        border-radius: 10px;
+    }
+
+    #igual{
+        width: 70px;
+        height: 168px;
+        font-size:20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #division{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
+
+    #multiplicacion{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
+
+    #uno{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
+
+    #dos{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
+
+    #tres{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
+    /*botones por filas*/
+    #ss td button{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    #st td button{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
+
+    #sq td button{
+        width: 70px;
+        height: 70px;
+        font-size:25px;
+        border-radius: 10px;
+    }
 
 /* estilo del panel de resultados */
 
@@ -24,11 +90,19 @@
     display: block;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
-    width: 330px;
+   /* margin-bottom: 50px; */
+    width: 400px;
     height: 100px;
     line-height: 100px;
     background-color: #fff;
     border-radius: 60px;
-    overflow-y: scroll;
+    color: rgb(50, 50, 56);
 }
+
+/*fondo*/
+body {
+    background-image: url('imagenes/fondo3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
