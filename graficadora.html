@@ -8,21 +8,33 @@
     
 </head>
 
-    <body onload="init();">
+    <body>
         <div  class="form-register" >            
                 <h1 id="titulo">Graficadora</h1>
                 <div>
                     <label class="coco" for="name" >Data:   </label> 
-                    <input class="controls" name="name" id="data" placeholder="Ingrese datos" type="number">
+                    <input class="controls" name="name" id="data" placeholder="Ingrese datos" type="text">
                 </div>
+
                 <div>
                     <label class="coco" for="lastname" >Labels:   </label> 
                     <input class="controls" name="name" id="label" placeholder="Ingrese datos" type="text">
                 </div>
-    
-                    
-                
-                
+
+                <div>
+                    <button class="btn btn-outline-light" id="torta">torta</button>
+                    <button class="btn btn-outline-light" id="linea">linea</button>
+                    <button class="btn btn-outline-light" id="barra">barra</button>
+                </div>
+
+                <div>
+                    <button class="btn btn-outline-light" id="realizar">realizar</button>
+                    <a class="btn btn-outline-light" href="graficadora.html">Limpiar</a> </button>
+                </div>
+
+                <div> 
+                    <canvas  id="myChart" ></canvas>
+                </div>
         </div>       
 
 
@@ -31,4 +43,8 @@
         </div>
         <script src="Java Script/graficadora.js"></script>  
     </body>
+
+    
+
+
 </html>
