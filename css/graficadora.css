@@ -76,7 +76,7 @@ body {
 }
 .form-register{
     height: 600px;
-    width: 600px;
+    width: 570px;
     background-color: #212529;
     font-family: 'calibri';
     margin: auto;
@@ -115,11 +115,15 @@ body {
 
 .chart{
 
-    height: 250px;
-    width: 500px;
+    height: max-content;
+    width: max-content;
     background-color: #414141;
     margin: auto;
     margin-top: 30px;
     border:rgb(0, 0, 0);
     border-radius: 10px;
+	
 }
+
+
+
